@@ -32,15 +32,21 @@ a {
   text-decoration: none;
   font-style: normal;
 }
+
+.section {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
 .page-header {
   width: 100%;
   background-color: #ffffff;
+  border-bottom: 1px solid #e7e9fc;
 }
 .page-header .container {
   display: flex;
-  width: 1160px;
-  padding-left: 16px;
-  padding-right: 16px;
+  width: 1158px;
+  padding-left: 15px;
+  padding-right: 15px;
   margin-right: auto;
   margin-left: auto;
 }
@@ -126,8 +132,9 @@ a {
   max-width: 100%;
 }
 .hero .container {
-  width: 1160px;
-  padding: 188px 16px;
+  width: 1158px;
+
+  padding: 188px 15px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -169,8 +176,9 @@ a {
   width: 100%;
 }
 .advantages .container {
-  width: 1160px;
-  padding: 120px 16px;
+  width: 1158px;
+  padding-left: 15px;
+  padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -203,8 +211,9 @@ a {
   width: 100%;
 }
 .team .container {
-  width: 1160px;
-  padding: 120px 16px;
+  width: 1158px;
+  padding-left: 15px;
+  padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -225,6 +234,8 @@ a {
 }
 .team-title-item {
   background: #fff;
+  border-radius: 0 0 4px 4px;
+  overflow: hidden;
 }
 .team-title-item .team-items {
   font-family: 'Roboto', sans-serif;
@@ -245,8 +256,9 @@ a {
   width: 100%;
 }
 .portfolio .container {
-  width: 1160px;
-  padding: 120px 16px;
+  width: 1158px;
+  padding-left: 15px;
+  padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -289,8 +301,8 @@ a {
   width: 100%;
 }
 .footer .container {
-  width: 1160px;
-    padding: 100px 16px;
+  width: 1158px;
+    padding: 100px 15px;
     margin-left: auto;
     margin-right: auto;
 }
